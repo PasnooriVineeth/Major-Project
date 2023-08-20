@@ -1,0 +1,64 @@
+*{
+    margin:0;
+    padding:0;
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.container{
+    width:100%;
+    height:100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("https://anglophone-direct.com/ap_img/restaurant2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.menu-icon{
+    width:30px;
+    cursor:pointer;
+}
+.row{
+    display:flex;
+    height:88%;
+    align-items:center;
+}
+.col{
+    flex-basis:50%;
+}
+h1{
+    color:#fff;
+    font-size:80px;
+}
+p{
+    color:#fff;
+    font-size:11px;
+    line-height: 15px;
+}
+.card{
+    width: 400px;
+    height: 250px;
+    display:inline-block;
+    border-radius: 10px;
+    padding: 15x 25px;
+    box-sizing:border-box;
+    cursor:pointer;
+    margin:10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.1s;
+    box-shadow: 10px 10px 10px;
+    border-style: outset;
+}
+.card1{
+    background-image: url('https://washops.s3.ap-south-1.amazonaws.com/2b36edc7cc773cc37945a47811c42fa4.jpg');   
+}
+
+p{
+    color: black;
+}
+
+
+@media only screen and (max-width: 720px) {
+    /* For mobile phones: */
+     *{
+      width: 100%;
+    }
+}

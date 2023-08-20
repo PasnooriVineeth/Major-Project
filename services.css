@@ -1,0 +1,70 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    /* font-family: 'poppins','sans-serif'; */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
+    /* background-image: url("https://ithemes.com/wp-content/uploads/2022/08/Services-Pages-1536x805.png");
+    background-size: cover; */
+}
+
+body{
+    background-image: url('https://media.istockphoto.com/photos/business-services-technical-help-gear-configuration-support-center-picture-id905146534?k=6&m=905146534&s=170667a&w=0&h=5Ac53_M3MEpbz0XUyqLgtZ5apLXzbl7YNuWv44dMky8=');
+    /* background-image: url("https://ithemes.com/wp-content/uploads/2022/08/Services-Pages-1536x805.png"); */
+    background-size: cover;
+}
+.container{
+    width:100%;
+    height:100vh;
+    padding: 0 8%;
+    color:white;
+}
+.container h1{
+    text-align: center;
+    padding-top: 10%;
+    margin-bottom: 60px;
+    font-weight: 600;
+    position:relative;
+    
+}
+.container h1::after{
+    content:'';
+    background:white;
+    width:100px;
+    height:5px;
+    position :absolute;
+    bottom:-5px;
+    left:50%;
+    transform:translateX(-50%);
+}
+.row{
+    display: grid;
+   grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-gap:30px;
+   
+}
+.service{
+    text-align:center;
+    padding:25px 10px;
+    border-radius: 5px;
+    font-size:14px;
+    cursor: pointer;
+    background: transparent;
+    
+    
+}
+.service i{
+    font-size: 40px;
+    margin-bottom: 10px;
+    color:white;
+  
+}
+section{ 
+    border-style: outset;
+    border-color: black;
+    border-radius: 40px;
+    box-shadow: 10px 10px 10px;
+    
+}

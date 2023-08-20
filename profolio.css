@@ -1,0 +1,62 @@
+
+/* Add your CSS styles here */
+
+
+body{
+    background: rgba(242, 235, 235, 0.7);
+    background-image:  url('https://media.istockphoto.com/id/1458918108/photo/3d-rendering-file-search.jpg?s=1024x1024&w=is&k=20&c=vQH20NIBKzR0bMvDqvjtItiFBbkBVPntbLsGN4QBm5A=');
+    background-size: cover;
+    background-blend-mode: darken;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+
+header {
+
+color:burlywood;
+padding: 0px;
+text-align: center;
+background-color: black;
+text-shadow:2px 2px 2px red ;
+}
+
+nav {
+border-color: black;
+border-style: groove;
+padding: 0px;
+box-shadow: 10px 10px 10px;
+border-radius: 30px;
+border-color:black;
+}
+
+nav ul {
+list-style-type: none;
+margin: 20px;
+padding: 30px;
+color:wheat;
+
+}
+
+nav ul li {
+display: inline;
+margin-right: 10px;
+text-decoration-color: white;
+}
+
+nav ul li a {
+color: black;
+text-decoration: none;
+}
+
+section {
+padding: 20px;
+color:black;
+}
+
+footer {
+background-color:black;
+color: #fff;
+padding: 10px;
+text-align: center;
+}
